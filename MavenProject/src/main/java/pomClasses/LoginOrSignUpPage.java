@@ -13,7 +13,10 @@ public class LoginOrSignUpPage {
 	@FindBy(xpath=" //input[@id='email']")
 	private WebElement emailOrPhoneNo;
 	
-	@FindBy(xpath="//input[@id='pass']")
+	//@FindBy(xpath="//input[@id='pass']")
+	//private WebElement password;
+	
+	@FindBy(xpath="//input[@id='pass1234556']")
 	private WebElement password;
 	
 	@FindBy(xpath="//button[text()='Log in']")
