@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2023]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2023(failed)">
+    <classes>
+      <class name="TestNG.TestNGAmazon">
+        <methods>
+          <include name="test"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestNG.TestNGAmazon -->
+      <class name="TestNG.KeywordDependsopmethod$Keyword2">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="test4"/>
+          <include name="afterClass"/>
+          <include name="test3"/>
+          <include name="beforeMethod"/>
+          <include name="test2"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestNG.KeywordDependsopmethod$Keyword2 -->
+      <class name="TestNG.Enabledzdisabled">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="test2"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestNG.Enabledzdisabled -->
+      <class name="TestNG.DependsOnMethod2$Keyword2">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="test4"/>
+          <include name="test3"/>
+          <include name="beforeMethod"/>
+          <include name="test2"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestNG.DependsOnMethod2$Keyword2 -->
+    </classes>
+  </test> <!-- Test2023(failed) -->
+</suite> <!-- Failed suite [Suite2023] -->

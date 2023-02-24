@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite2023">
+  <test thread-count="5" name="Test2023">
+    <classes>
+      <class name="TestNG.TestNG1"/>
+      <class name="TestNG.Keyword2"/>
+      <class name="TestNG.KeywordDependsopmethod"/>
+      <class name="TestNG.Keyword3"/>
+      <class name="TestNG.DependsOnMethod2"/>
+      <class name="TestNG.Keyword1"/>
+      <class name="TestNG.Enabledzdisabled"/>
+      <class name="TestNG.TestNGAmazon"/>
+    </classes>
+  </test> <!-- Test2023 -->
+</suite> <!-- Suite2023 -->
+		
